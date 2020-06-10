@@ -11,8 +11,8 @@ void main() => runApp(MaterialApp(
             brightness: Brightness.dark),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+            image:
+                AssetImage('images/man-playing-guitar-with-girl-3450887.jpg'),
           ),
         ),
         backgroundColor: Colors.indigo[700],
